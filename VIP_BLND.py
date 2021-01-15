@@ -4,21 +4,14 @@
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 
-from multiprocessing.pool import ThreadPool
-
-from requests.exceptions import ConnectionError
-
-from mechanize import Browser
-
-from bs4 import BeautifulSoup
-
 def anime(z):
 
-	for e in z + '\n':		sys.stdout.write(e)
+	for e in z + '\n':		     
+                 sys.stdout.write(e)
 
-		sys.stdout.flush()
+                 sys.stdout.flush()
 
-		time.sleep(000.1)
+                 time.sleep(000.1)
 
 print("FB GRABER")
 
