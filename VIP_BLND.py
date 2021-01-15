@@ -1,5 +1,5 @@
-#!/usr/bin/python2
-#coding=utf-8
+#!/usr/bin/python
+# -*- coding: <VIP_BLND.py> -*-
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 
